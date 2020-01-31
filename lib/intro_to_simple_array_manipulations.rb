@@ -22,6 +22,6 @@ def shift_with_args(shiftArrayWithArgs)
   shiftArrayWithArgs.shift(2)
 end
 
-def using_concat(all_my_favs, my_favorite_things)
-  all_my_favs.concat(my_favorite_things)
+def using_concat(my_favorite_things, all_my_favs)
+  my_favorite_things.concat(all_my_favs)
 end
