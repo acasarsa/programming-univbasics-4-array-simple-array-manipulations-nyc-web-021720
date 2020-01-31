@@ -19,7 +19,5 @@ def using_shift(shiftArray)
 end
 
 def shift_with_args(shiftArrayWithArgs)
-  shiftArrayWithArgs.shift(2)  
+  shiftArrayWithArgs.shift(2)
 end
-
-
