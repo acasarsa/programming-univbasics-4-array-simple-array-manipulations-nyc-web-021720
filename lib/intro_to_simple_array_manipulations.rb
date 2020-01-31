@@ -27,5 +27,9 @@ def using_concat(arr, otherArr) # takes in 2 arrays, and adds the otherArr to th
 end
 
 def using_insert(arr, el)
-  arr.insert(4, el)  # at index [4] insert element into arr
+  arr.insert(4, el)  # at index [i] insert element into arr
+end
+
+def using_uniq(arr)
+  
 end
