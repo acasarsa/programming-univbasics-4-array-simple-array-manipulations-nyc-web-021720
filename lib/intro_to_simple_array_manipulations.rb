@@ -5,3 +5,7 @@ end
 def using_unshift(unshiftingArray, unshiftingElement)
   unshifted_array = unshiftingArray.unshift(unshiftingElement)
 end
+
+def using_pop(popArray)
+  popArray.pop
+end
