@@ -1,27 +1,27 @@
-def using_push(pushingArray, pushingElement)
-  pushed_array = pushingArray.push(pushingElement)
+def using_push(arr, el)
+  pushed_array = arr.push(el)
 end
 
-def using_unshift(unshiftingArray, unshiftingElement)
-  unshifted_array = unshiftingArray.unshift(unshiftingElement)
+def using_unshift(arr, el)
+  unshifted_array = arr.unshift(el)
 end
 
-def using_pop(popArray)
-  popArray.pop
+def using_pop(arr)
+  arr.pop
 end
 
-def pop_with_args(popArrayWithArgs)
-  popArrayWithArgs.pop(2)
+def pop_with_args(arr)
+  arr.pop(2)
 end
 
-def using_shift(shiftArray)
-  shiftArray.shift
+def using_shift(arr)
+  arr.shift
 end
 
-def shift_with_args(shiftArrayWithArgs)
-  shiftArrayWithArgs.shift(2)
+def shift_with_args(arr)
+  arr.shift(2)
 end
 
-def using_concat(my_favorite_things, all_my_favs)
-  my_favorite_things.concat(all_my_favs)
+def using_concat(arr, otherArr) #=> takes in 2 arrays, and adds the otherArr to the first Arr
+  arr.concat(otherArr)
 end
