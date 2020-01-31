@@ -1,5 +1,5 @@
-def using_push(pushingArray, pusshingElement)
-  updated_array = array.push(element)
+def using_push(pushingArray, pushingElement)
+  updated_array = pushingArray.push(pushingElement)
 end
 
 def using_unshift(unshiftingArray, unshiftingElement)
